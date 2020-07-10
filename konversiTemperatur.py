@@ -67,13 +67,13 @@ def temperatur_Kelvin():
 
 def temperatur():
     x = input('Masukan nama suhu: ')
-    if x == 1 or x == "(1)" or x.lower() == "c" or x.lower() == "cersius" or x.lower() == "cersius(1)":
+    if x == '1' or x == "(1)" or x.lower() == "c" or x.lower() == "cersius" or x.lower() == "cersius(1)":
         print(temperatur_Cersius())
-    elif x == 2 or x == "(2)" or x.lower() == "r" or x.lower() == "reamur" or x.lower() == "reamur(2)":
+    elif x == '2' or x == "(2)" or x.lower() == "r" or x.lower() == "reamur" or x.lower() == "reamur(2)":
         print(temperatur_Reamur())
-    elif x == 3 or x == "(3)" or x.lower() == "f" or x.lower() == "fahrenheit" or x.lower() == "fahrenheit(3)":
+    elif x == '3' or x == "(3)" or x.lower() == "f" or x.lower() == "fahrenheit" or x.lower() == "fahrenheit(3)":
         print(temperatur_Fahrenheit())
-    elif x == 4 or x == "(4)" or x.lower() == "k" or x.lower() == "kelvin" or x.lower() == "kelvin(3)":
+    elif x == '4' or x == "(4)" or x.lower() == "k" or x.lower() == "kelvin" or x.lower() == "kelvin(3)":
         print(temperatur_Kelvin())
     return
 
